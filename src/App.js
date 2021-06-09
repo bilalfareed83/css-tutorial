@@ -5,7 +5,10 @@ import { MinMaxClamp } from "./component/MinMaxWidth/minMaxClamp";
 function App() {
   return (
     <div>
-      <h2>Css Tutorial with Kevin Powell</h2>
+      <div className="heading">
+        <h2>CSS Tutorial with Kevin Powell</h2>
+      </div>
+
       <MinMaxClamp />
     </div>
   );

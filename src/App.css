@@ -1,32 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-:root {
-  --clr-primary: #ee6352;
-  --clr-body: #333;
-  --clr-bg: #ddd;
-}
-
-.containerMinMax {
+.heading {
   display: flex;
-  min-height: 100vh;
-  font-size: 1.25em;
-  line-height: 1.6em;
-  justify-content: center;
   align-items: center;
-  color: var(--clr-body);
-  background: var(--clr-bg);
-}
-
-.content {
-  background: white;
-  padding: 3em;
-  box-shadow: 0 0 3em rbga(0, 0, 0, 0.15);
-  width: min(700px, 60%);
-}
-
-.title {
-  margin: 0 0 0.5em;
-  font-weight: 900;
-  color: var(--clr-primary);
+  justify-content: center;
 }
